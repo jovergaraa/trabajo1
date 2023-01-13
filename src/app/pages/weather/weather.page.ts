@@ -15,7 +15,6 @@ export class WeatherPage  {
   todayDate = new Date()
   weatherTemp:any
   weatherName : any
-  weatherIcon:any
   weatherDetails:any
   constructor(public HttpClient:HttpClient) { 
     this.loadData()
@@ -27,11 +26,9 @@ export class WeatherPage  {
       console.log(results);
       this.weatherTemp= results;
       this.weatherName = results;
-      this.weatherIcon = results;
 
       console.log(this.weatherTemp.main.temp);
       console.log(this.weatherName.name);
-      console.log(this.weatherDetails.icon);
       
       
     
