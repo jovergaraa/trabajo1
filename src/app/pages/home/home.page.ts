@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomePage implements OnInit {
 
   pageTitle = 'home';
-  image = 'rocket.svg';
+  image = 'logo_vino.jpg';
   pageIcon = `../../../assets/img/${this.image}`;
 
   constructor() { }
