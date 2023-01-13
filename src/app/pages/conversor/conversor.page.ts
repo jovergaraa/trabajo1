@@ -29,14 +29,14 @@ export class ConversorPage implements OnInit {
     }
 
     getEuroApesoChileno() {
-      this.conversor.buscarIndicador('euro', '4-11-2022').then(data => {
+      this.conversor.buscarIndicador('euro', '4-11-2023').then(data => {
         this.euro = data.serie[0].valor;
         console.log(this.euro);
       });
     }
   
     getDolarApesoChileno() {
-      this.conversor.buscarIndicador('dolar', '4-11-2022').then(data => {
+      this.conversor.buscarIndicador('dolar', '4-11-2023').then(data => {
         this.dolar = data.serie[0].valor;
         console.log(this.dolar);
       });
