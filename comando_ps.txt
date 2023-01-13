@@ -1,0 +1,2 @@
+Ejecutar en PowerShell:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
